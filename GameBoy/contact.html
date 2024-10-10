@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script defer src="js/javascript.js"></script>
+  </head>
+  <body>
+    <header class="header">
+        <a href="index.html">
+          <img class="logo" src="img/Game_Boy_Color_logo1.png" alt="Gameboy logo"/></a>
+  
+        <nav class="main-nav">
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"  height="24px  viewBox="0 -960 960 960" width="24px  fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+            </li>
+            <li><a class="main-nav-link" href="aboutus.html">ABOUT US</a></li>
+            <li><a class="main-nav-link" href="#contactus">CONTACT US</a></li>
+          </ul>
+          <ul class="main-nav-list">
+            <li class="hideOnMobile">
+              <a class="main-nav-link" href="aboutus.html">ABOUT US</a>
+            </li>
+            <li class="hideOnMobile">
+              <a class="main-nav-link" href="#contactus">CONTACT US</a>
+            </li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" type="text" placeholder="John" name="name" required/>
+                </div>
+                <div>
+                  <label for="last-name">Last Name</label>
+                  <input id="last-name" type="text" placeholder="Smith" name="last-name" required/>
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" type="email" placeholder="example@gmail.com" name="email" required/>
+                </div>
+                <div>
+                  <label for="phone-number">Phone Number</label>
+                  <input id="phone-number" type="tel" placeholder="(+123)-456-789" name="phone-number" required/>
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <input id="message" type="text" placeholder="Type Here..." name="message" required/>
+                </div>
+                <button class="button">Send Messege</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="#">Product tour</a></li>
+                        <li><a href="#">Heatmaps</a></li>
+                        <li><a href="#">Session recordings</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">For product teams</a></li>
+                        <li><a href="#">For researchers</a></li>
+                        <li><a href="#">For product designers</a></li>
+                        <li><a href="#">Case studies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Online Shop</h4>
+                    <ul>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">Bag</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>

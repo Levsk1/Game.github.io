@@ -1,0 +1,121 @@
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+
+/******************/
+/* BELOW 1200 (Landscape Tablets) */
+/******************/
+@media (max-width: 75em) {
+  
+    
+
+    .logos {
+        margin: 6rem 0;
+    }
+
+    .books { 
+        display: grid;
+        row-gap: 2.8rem;
+    }
+}
+
+/******************/
+/* BELOW 1008 ( Tablets) */
+/******************/
+
+@media (max-width: 63em) {
+    
+}
+
+/******************/
+/* BELOW 880 (Smaller Tablets) */
+/******************/
+
+@media (max-width: 55em) {
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+    }
+}
+
+
+
+
+/******************/
+/* BELOW 880 (Smaller Tablets)
+
+CHATGPT
+
+*/
+/******************/
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-imgs {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .hero1, .screenshot {
+        width: 48%;
+    }
+
+    .hero1 {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 768px) {
+    h3 {
+        font-size: 2em;
+    }
+
+    .logos img {
+        max-width: 150px;
+    }
+
+    .featured-text {
+        font-size: 1.2em;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    h3 {
+        font-size: 2.5em;
+    }
+
+    .logos img {
+        max-width: 200px;
+    }
+
+    .featured-text {
+        font-size: 1.4em;
+    }
+}
+
+
+/******************/
+/* BELOW 400 (Smaller Tablets) */
+/******************/
+
+@media (max-width: 25em) {
+    .sidebar {
+        width: 100%;
+    }
+}
